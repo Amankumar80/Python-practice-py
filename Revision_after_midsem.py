@@ -130,3 +130,6 @@ print(Fi) #output:5 index
 a='Aman Kumar Chandravanshi'
 sl=a[::-1]
 print(sl) #output:ihsnavardnahC ramuK namA
+
+
+# Q20. Take name and age from the user using input(), and print a greeting message using both.
