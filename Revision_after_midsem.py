@@ -141,10 +141,10 @@ print(sl) #output:ihsnavardnahC ramuK namA
 
 # Q21. Take two numbers from the user (convert with int()), and find their sum.
 
-Num1=int(input(("Enter First Number:")))
-Num2=int(input(("Enter Second Number: ")))
-Sum=(Num1+Num2)
-print(Sum)
+# Num1=int(input(("Enter First Number:")))
+# Num2=int(input(("Enter Second Number: ")))
+# Sum=(Num1+Num2)
+# print(Sum)
 
 # Q22. Take a number from the user and print its square and cube, without using if-else.
 
@@ -161,8 +161,24 @@ print(Sum)
 
 # Q24. Build a simple interest calculator: take principal, rate, and time from the user, calculate and print SI (formula: SI = (P*R*T)/100).
 
-P=int(input("Enter Princple amount:"))
-R=int(input("Enter Rate :"))
-T=int(input("Enter Time :"))
-SI=(P*R*T)/100
-print("Simple Interst is ",SI)
+# P=int(input("Enter Princple amount:"))
+# R=int(input("Enter Rate :"))
+# T=int(input("Enter Time :"))
+# SI=(P*R*T)/100
+# print("Simple Interst is ",SI)
+
+# Q25. Take a sentence from the user, count total characters excluding spaces, using len() and .replace() together.
+
+User="Hello Everyone how are you.Is Everything is fine ? "
+S=len(User)
+print(S)
+R=User.replace("Everyone","Guys")
+print(R)
+
+# Q26. Take two strings from the user,
+#  check if they’re equal (== operator), and print the result.
+
+a=input(("Enter your 1st string...")) 
+b=input(("Enter your 2nd string..."))
+c=a==b
+print(c)
