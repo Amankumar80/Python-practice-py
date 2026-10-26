@@ -135,37 +135,37 @@ print(sl) #output:ihsnavardnahC ramuK namA
 # Q20. Take name and age from the user using input(),
 #  and print a greeting message using both.
 
-# Name=input("Enter your Name:")
-# Age=input("Enter your Age:")
-# print(f"Happy Birthday {Name}! , Now you are ofically in  {Age}")
+Name=input("Enter your Name:")
+Age=input("Enter your Age:")
+print(f"Happy Birthday {Name}! , Now you are ofically in  {Age}")
 
 # Q21. Take two numbers from the user (convert with int()), and find their sum.
 
-# Num1=int(input(("Enter First Number:")))
-# Num2=int(input(("Enter Second Number: ")))
-# Sum=(Num1+Num2)
-# print(Sum)
+Num1=int(input(("Enter First Number:")))
+Num2=int(input(("Enter Second Number: ")))
+Sum=(Num1+Num2)
+print(Sum)
 
 # Q22. Take a number from the user and print its square and cube, without using if-else.
 
-# num=int(input("Enter Your Number:"))
-# Square=num**2
-# cube=num**3
-# print(f"Square of your Number is {Square}\nCube of Your Number is {cube} ")
+num=int(input("Enter Your Number:"))
+Square=num**2
+cube=num**3
+print(f"Square of your Number is {Square}\nCube of Your Number is {cube} ")
 
 # # Q23. Take a temperature in Celsius from the user and convert it to Fahrenheit (formula: F = C*9/5 + 32).
 
-# Temp=int(input("What is the temperature?\n"))
-# frn=Temp*9/5+32
-# print(f"The Actual Body Temperature is {frn}F")
+Temp=int(input("What is the temperature?\n"))
+frn=Temp*9/5+32
+print(f"The Actual Body Temperature is {frn}F")
 
 # Q24. Build a simple interest calculator: take principal, rate, and time from the user, calculate and print SI (formula: SI = (P*R*T)/100).
 
-# P=int(input("Enter Princple amount:"))
-# R=int(input("Enter Rate :"))
-# T=int(input("Enter Time :"))
-# SI=(P*R*T)/100
-# print("Simple Interst is ",SI)
+P=int(input("Enter Princple amount:"))
+R=int(input("Enter Rate :"))
+T=int(input("Enter Time :"))
+SI=(P*R*T)/100
+print("Simple Interst is ",SI)
 
 # Q25. Take a sentence from the user, count total characters excluding spaces, using len() and .replace() together.
 
@@ -178,7 +178,7 @@ print(R)
 # Q26. Take two strings from the user,
 #  check if they’re equal (== operator), and print the result.
 
-a=input(("Enter your 1st string...")) 
-b=input(("Enter your 2nd string..."))
-c=a==b
-print(c)
+a=input(("Enter your 1st string:"))
+b=input(("Enter your 2nd string:"))
+c=(a==b)
+print(c) 
