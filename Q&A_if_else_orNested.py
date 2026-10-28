@@ -66,4 +66,5 @@ elif num%3==0 or num%5==0:
 else:
     print("Divisible by nither")
     
-                       
+
+
