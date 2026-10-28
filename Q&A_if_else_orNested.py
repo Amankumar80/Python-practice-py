@@ -56,6 +56,14 @@ if year%4==0:
 else:
  print("It is not a leap year baby!")
 
-            
-                        
+#  Q. Take a number from the user and check whether it is divisible by both 3 and 5, or divisible by either 3 or 5 (but not both), or divisible by neither. Print one of: “Divisible by both”, “Divisible by one”, or “Divisible by neither”.
+
+num=int(input("Enter a number:"))
+if num%3==0 and num%5==0:
+    print("Divisible by Both")
+elif num%3==0 or num%5==0:
+    print("Divisible by one")
+else:
+    print("Divisible by nither")
     
+                       
