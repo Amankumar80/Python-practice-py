@@ -56,8 +56,6 @@ if year%4==0:
 else:
  print("It is not a leap year baby!")
 
-
             
-# elif year%100==0:
-#      print("Not a leap year")                        
+                        
     
