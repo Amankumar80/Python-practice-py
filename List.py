@@ -42,3 +42,31 @@ last=num[-3:]
 print(last)
 middle=num[2:6]
 print(middle)
+
+# Q6. Using slicing, print the list [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] in reverse order,
+#  and then print only the even-indexed elements (index 0, 2, 4, ...).
+num=[1,2,3,4,5,6,7,8,9,10]
+a=num[::-1]
+print(a)
+b=num[0:10:2]
+print(b)
+
+# Q7. Take a list [4, 8, 15, 16, 23, 42] 
+# and print the largest element, the smallest element, and the sum of all elements.
+
+a=[4,8,15,16,23,42]
+b=max(a)
+print(b)
+c=min(a)
+print(c)
+print(sum(a))
+
+# Q8. Take 5 numbers from the user, one by one, using input(), store them in a list, 
+# and print the list.
+a=int(input("Enter 1st Number:"))
+b=int(input("Enter 2nd Number:"))
+c=int(input("Enter 3rd Number:"))
+d=int(input("Enter 4th Number:"))
+e=int(input("Enter 5th Number:"))
+l=[a,b,c,d,e]
+print(l)
