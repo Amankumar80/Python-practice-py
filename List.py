@@ -63,10 +63,58 @@ print(sum(a))
 
 # Q8. Take 5 numbers from the user, one by one, using input(), store them in a list, 
 # and print the list.
-a=int(input("Enter 1st Number:"))
-b=int(input("Enter 2nd Number:"))
-c=int(input("Enter 3rd Number:"))
-d=int(input("Enter 4th Number:"))
-e=int(input("Enter 5th Number:"))
-l=[a,b,c,d,e]
-print(l)
+# a=int(input("Enter 1st Number:"))
+# b=int(input("Enter 2nd Number:"))
+# c=int(input("Enter 3rd Number:"))
+# d=int(input("Enter 4th Number:"))
+# e=int(input("Enter 5th Number:"))
+# l=[a,b,c,d,e]
+# print(l)
+
+#Q9 WAP to ask the user to enter the name of their 3 fav movie and store them in a list.
+# user1=input("Enter your fav movie:")
+# user2=input("Enter your fav movie:")
+# user3=input("Enter your fav movie:")
+# li=[user1,user2,user3]
+# print(li)
+
+# WAP to check if a list contains palindrome of element.
+a=[1,2,3,2,1]
+b=a.copy()
+b.reverse() 
+print(a==b)
+
+c=[1,"abc",1,"abc"]
+d=c.copy()
+d.reverse()
+print(c==d)
+
+# WAP to count the number of the student with the "A" grade following the tuple.
+tup=("C",'D','A','A','B','B','A')
+print(tup.count("A"))
+
+# WAP a program to store ("C",'D','A','A','B','B','A') in a list A to D.
+li=['C','D','A','A','B','B','A']
+li.sort()
+print(li)
+
+# Create a list of your 5 favourite programming languages. Print the first and the
+# last one using both positive and negative indexing.
+PL=['python','sql','java','javascript','php']
+first=PL[0]
+last=PL[-1]
+print(f"The first language is {first} and second language is {last} ")
+
+# Slice the Marks
+# Given marks = [45, 67, 89, 23, 90, 56, 78] :
+# Print the first 3 marks
+# Print the last 2 marks
+# Print every alternate mark
+# Print the list in reverse
+
+Given_marks=[45,67,89,23,90,56,78]
+f3_marks=Given_marks[0:3]
+l2_marks=Given_marks[-2:]
+Alt_marks=Given_marks[0::2]
+rev_marks=Given_marks[::-1]
+print(f"{f3_marks}\n{l2_marks}\n{Alt_marks}\n{rev_marks}")
