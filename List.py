@@ -63,20 +63,20 @@ print(sum(a))
 
 # Q8. Take 5 numbers from the user, one by one, using input(), store them in a list, 
 # and print the list.
-# a=int(input("Enter 1st Number:"))
-# b=int(input("Enter 2nd Number:"))
-# c=int(input("Enter 3rd Number:"))
-# d=int(input("Enter 4th Number:"))
-# e=int(input("Enter 5th Number:"))
-# l=[a,b,c,d,e]
-# print(l)
+a=int(input("Enter 1st Number:"))
+b=int(input("Enter 2nd Number:"))
+c=int(input("Enter 3rd Number:"))
+d=int(input("Enter 4th Number:"))
+e=int(input("Enter 5th Number:"))
+l=[a,b,c,d,e]
+print(l)
 
 #Q9 WAP to ask the user to enter the name of their 3 fav movie and store them in a list.
-# user1=input("Enter your fav movie:")
-# user2=input("Enter your fav movie:")
-# user3=input("Enter your fav movie:")
-# li=[user1,user2,user3]
-# print(li)
+user1=input("Enter your fav movie:")
+user2=input("Enter your fav movie:")
+user3=input("Enter your fav movie:")
+li=[user1,user2,user3]
+print(li)
 
 # WAP to check if a list contains palindrome of element.
 a=[1,2,3,2,1]
